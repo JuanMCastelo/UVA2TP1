@@ -1,40 +1,43 @@
+
 /* Clase para miembros del Imperio */
 .imperio {
-    background-color: red;
-  }
-  
-  /* Clase para los Rebeldes */
-  .rebeldes {
-    background-color: blue;
-  }
-  
-  /* ID para Darth Vader: agrandar fuente */
-  #darthvader {
-    font-size: 1.5em;
-  }
-  
-  /* ID para Luke: letra itálica */
-  #luke {
-    font-style: italic;
-  }
-  
-  /* Clase para soldados: borde a rayas */
-  .soldado {
-    border: 2px dashed gray;
-  }
-  
-  /* Clase para soldados: espacio entre letras */
-  .espaciado {
-    letter-spacing: 2px;
-  }
-  
-  /* Clase para unidades de apoyo: centrar texto */
-  .unidad-apoyo {
-    text-align: center;
-  }
-  
-  /* Clase para naves: mayúsculas en texto */
-  .nave {
-    text-transform: uppercase;
-  }
-  
+  background-color: red;
+  color: white; /* para mejor contraste */
+}
+
+/* Clase para los Rebeldes */
+.rebeldes {
+  background-color: blue;
+  color: white;
+}
+
+/* ID para Darth Vader: agrandar fuente */
+#darthvader {
+  font-size: 1.5em;
+}
+
+/* ID para Luke: letra itálica */
+#luke {
+  font-style: italic;
+}
+
+
+/* Clase para soldados: borde a rayas */
+.soldado {
+  border: 2px dashed gray;
+}
+
+/* Clase para soldados: espacio entre letras */
+.espaciado {
+  letter-spacing: 2px;
+}
+
+/* Clase para unidades de apoyo: centrar texto */
+.apoyo {
+  text-align: center;
+}
+
+/* Clase para naves: texto en mayúsculas */
+.nave {
+  text-transform: uppercase;
+}
